@@ -1,5 +1,4 @@
 import { prisma } from "../src/database";
-import { items } from "@prisma/client";
 import { TItemId } from "../src/types/ItemsTypes";
 import { newItem } from "./factories/itemFactory";
 import app from "../src/app";
